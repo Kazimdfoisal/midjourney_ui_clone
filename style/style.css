@@ -358,11 +358,12 @@ h1 {
 
 
     .threeCard {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         gap: 30px;
+        padding: 10px; */
+        display: grid;
         padding: 10px;
-
     }
 
     .fullProject {
@@ -391,9 +392,9 @@ h1 {
         min-width: fit-content;
     }
 
-    .pricing-card {
+    /* .pricing-card {
         min-width: 300px;
-    }
+    } */
 
     .details{
         display: flex;
