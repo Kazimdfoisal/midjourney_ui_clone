@@ -95,8 +95,8 @@
     padding-top: 50px;
     padding-bottom: 20px;
     width: 100%;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 40px; 
+     margin-right: 40px;
     position: relative;
 }
 
@@ -404,6 +404,9 @@ h1 {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    margin-left: 0px; 
+    margin-right: 0px;
+
     }
     #mediaSidebarCross{
        display: block;
