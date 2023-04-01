@@ -347,15 +347,9 @@ h1 {
     }
 
     .purchasingDetails{
-        /* cng */
-        min-width: 80%;
+        min-width: 100%;
 
     }
-
-    /* .heading{
-       padding-left: 10px;
-       padding-right: 10px;
-    } */
 
     
     .sideBar {
@@ -363,7 +357,12 @@ h1 {
     }
 
     .mediaUseSvg {
-        padding-left: 7px;
+        padding-left: 20px;
+    }
+
+    .heading{
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 
@@ -373,23 +372,19 @@ h1 {
         gap: 30px;
         padding: 10px; */
         display: grid;
+        padding: 40px;
+    }
 
+    .billing{
 
-        /* //cng */
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        /* cng */
+       width: 90%;
     }
 
     .fullProject {
         display: flex;
         padding-left: 0px;
         padding-top: 0px;
-
-        /* cng        */
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
 
@@ -418,8 +413,8 @@ h1 {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    margin-left: 0px; 
-    margin-right: 0px;
+        margin-left: 0px; 
+        margin-right: 0px;
     
 
     }
