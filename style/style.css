@@ -374,7 +374,7 @@ h1 {
 
     .fullProject {
         display: flex;
-        padding-left: 0px;
+        padding-left: 20px;
         padding-top: 0px;
     }
 
@@ -406,6 +406,7 @@ h1 {
         flex-wrap: wrap;
     margin-left: 0px; 
     margin-right: 0px;
+    
 
     }
     #mediaSidebarCross{
