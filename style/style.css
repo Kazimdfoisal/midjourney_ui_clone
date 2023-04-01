@@ -345,9 +345,15 @@ h1 {
         margin: 0px;
         box-sizing: border-box;
         font-family: 'Open Sans', sans-serif;
-
     }
 
+    .purchasingDetails,.heading,.billing{
+        min-width: 300px;
+        max-width: 340px;
+        
+    }
+
+    
     .sideBar {
         display: none;
     }
@@ -383,9 +389,7 @@ h1 {
         height: 30px;
     }
 
-    .billing {
-        min-width: fit-content;
-    }
+  
 
     .el {
         display: block;
