@@ -346,11 +346,16 @@ h1 {
         font-family: 'Open Sans', sans-serif;
     }
 
-    .purchasingDetails,.heading,.billing{
-        min-width: 100%;
-        max-width: 340px;
-        
+    .purchasingDetails{
+        /* cng */
+        min-width: 80%;
+
     }
+
+    /* .heading{
+       padding-left: 10px;
+       padding-right: 10px;
+    } */
 
     
     .sideBar {
@@ -368,13 +373,23 @@ h1 {
         gap: 30px;
         padding: 10px; */
         display: grid;
-        padding: 10px;
+
+
+        /* //cng */
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .fullProject {
         display: flex;
         padding-left: 0px;
         padding-top: 0px;
+
+        /* cng        */
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 
