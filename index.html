@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <section class="fullProject">
+    <div class="sideBar" id="sideBarMedia">
+      <div class="mediaSidebarCross">
+        <h2 level="warn">Midjourney</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon" id="mediaSidebarCross">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+        
+      </div> 
+
+      <div id="sideBar"></div>
+      <div class="slideBarBottom">
+        <div class="bottomFirst">
+          <a href="html"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+          </svg>
+           Notification
+           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+          </svg>
+          </a>
+      
+        </div>
+
+        <div class="userDetails">
+          <img src="./images/fotor_2023-3-25_5_48_11.png" alt="images" class="imgLogo">
+          <div class="extrad">
+            <h2>theKjNik</h2>
+            <p>#7432</p>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+          </svg>
+          
+        </div>        
+      </div>
+    </div>
+
+    <div class="details" id="details">
+     <div class="mediaUseSvg">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon" id="mediaIcon">
+        <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+      </svg>
+      
+     </div>
+
+      
+      <div class="heading">
+        <div class="firstHeadingPart">
+          <img src="./images/fotor_2023-3-25_5_48_11.png" alt="images" class="imgLogo">
+          <h2>theKjNik</h2>
+          <p>#7432</p>
+        </div>
+        <div class="secondHeadingPart">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="icon">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
+          </svg>
+          <p>Sign Out</p>
+        </div>
+
+      </div>
+
+      <div class="innerDetails">
+        <div class="purchasingDetails">
+          <div class="lines">
+            <h2>Purchase a subscription
+            </h2>
+            <p>Choose the plan that works for you.
+            </p>
+          </div>
+          <div class="billing">
+            <span  id="monthlyBill" class="monthlyBill activeBilling">Monthly Billing</span>
+            <span  id="yearlyBill" class="yearlyBill" >Yearly Billing</span>
+            
+          </div>
+        </div>
+
+        <div class="threeCard" id="threeCard"> </div>
+      </div>
+
+
+    </div>
+  </section>
+  <script src="./script/app.js" type="module"></script>
+</body>
+
+</html>

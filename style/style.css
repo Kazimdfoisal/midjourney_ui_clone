@@ -1,0 +1,436 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.sideBar {
+    height: 100%;
+    width: 20%;
+    position: sticky;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(14, 37, 70);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sideBar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: max-content;
+    margin-bottom: 100px;
+}
+
+.sideBarFirstPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideBar a {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+.sideBar a:hover {
+    border-radius: 10px;
+    background-color: rgb(82, 121, 179);
+    transition: all .2s;
+}
+
+.slideBarTop {
+    display: flex;
+    flex-direction: column;
+}
+
+.slideBarTop a {
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(187, 191, 202);
+
+}
+
+/* h2[level='warn'] {
+    margin-bottom: 15px;
+
+} */
+
+.slideBarBottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bottomFirst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottomFirst a {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+
+
+body {
+    background-color: rgb(23, 17, 48);
+    color: antiquewhite;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.imgLogo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(5, 148, 243);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstHeadingPart {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.secondHeadingPart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.purchasingDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: larger;
+    text-align: center;
+}
+
+.billing {
+    background-color: rgb(55, 94, 112);
+    padding: 6px;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.yearlyBill {
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 3px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    text-align: center;
+    width: 50%;
+}
+
+.monthlyBill {
+    border-radius: 10px;
+    cursor: pointer;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    text-align: center;
+    width: 50%;
+}
+
+.activeBilling{
+    background-color: rgb(31, 49, 51);
+}
+.month {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.button button {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.basicButton button {
+    background-color: rgb(100, 100, 231);
+    color: white;
+    border: none;
+
+}
+
+.StandardButton button {
+    background-color: rgb(55, 63, 70);
+    color: white;
+    border: none;
+
+}
+
+.proButton button {
+    background-color: rgb(53, 51, 45);
+    color: white;
+    border: none;
+}
+
+ol li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid rgb(87, 78, 78);
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+.innerDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
+
+.userDetails {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(57, 54, 104, 0.644);
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.fullProject {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+h1 {
+    color: white;
+    font-size: xx-large;
+}
+
+.month h2 {
+    font-size: medium;
+}
+
+.extra {
+    padding-bottom: 10px;
+}
+
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.white {
+    color: rgb(65, 218, 65);
+}
+
+#mediaIcon {
+    display: none;
+}
+
+#mediaSidebarCross{
+    display: none;
+}
+
+.mediaSidebarCross{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.threeCard {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background-color: rgb(40, 43, 53);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: rgb(232, 240, 240);
+    min-width: 300px;
+    max-width: 320px;
+}
+
+
+
+
+
+@media screen and (max-width :771px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .sideBar {
+        display: none;
+    }
+
+    .mediaUseSvg {
+        padding-left: 7px;
+    }
+
+
+    .threeCard {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+
+    }
+
+    .fullProject {
+        display: flex;
+        padding: 0px;
+
+    }
+
+
+    body {
+        background-color: rgb(23, 17, 48);
+    }
+
+    #mediaIcon {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+
+    .billing {
+        min-width: fit-content;
+    }
+
+    .el {
+        display: block;
+        min-width: fit-content;
+    }
+
+    .pricing-card {
+        min-width: 100%;
+    }
+
+    .details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #mediaSidebarCross{
+       display: block;
+       border: 1px solid rgb(77, 37, 114);
+       padding: 3px;
+       border-radius: 10px;
+       color: rgb(188, 165, 192);
+
+       
+    }
+
+    #mediaSidebarCross:hover{
+        background-color: rgb(82, 121, 179);
+        color: rgb(240, 234, 234);
+        border: none;
+        
+     }
+    .mediaSidebarCross{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;        
+        
+    }
+
+    .bgChange{
+        background:none;
+
+    }
+        
+}
+
+/* 
+Sefat vai Link 
+overflow - x: scroll;// flex - no  warp kore kivabe scroll kora jai tar jonne eta 
+
+https://github.com/Mentor-Program/syllabus/discussions/23 */
