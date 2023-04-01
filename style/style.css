@@ -347,7 +347,7 @@ h1 {
     }
 
     .purchasingDetails,.heading,.billing{
-        min-width: 300px;
+        min-width: 100%;
         max-width: 340px;
         
     }
@@ -395,9 +395,9 @@ h1 {
         min-width: fit-content;
     }
 
-    /* .pricing-card {
-        min-width: 300px;
-    } */
+    .pricing-card {
+        min-width: 100%;
+    }
 
     .details{
         display: flex;
